@@ -14,10 +14,10 @@ Fermat is an Elixir module that implements the Fermat primality test, which is u
 ###############################
 Examples
 
-Fermat.rpow(5, 2, 10) #=> 5
-Fermat.fermat(2311) #=> {:ok, 2311}
-Fermat.test(2311, 10) #=> "we're done and interested"
-Fermat.run(2311) #=> nil
+   iex(1)> Fermat.rpow(5, 2, 10) #=> 5
+   iex(2)> Fermat.fermat(2311) #=> {:ok, 2311}
+   iex(3)> Fermat.test(2311, 10) #=> "we're done and interested"
+   iex(4)> Fermat.run(2311) #=> nil
 
 
 ###############################
@@ -37,7 +37,7 @@ Then run mix deps.get to install the dependency.
 ###############################
 To run the Fermat module as intended :
 
-iex primyproject.ex
-Fermat.run(1)
+   iex primyproject.ex
+iex(1)> Fermat.run(1)
 
 It will start to print all the relatively prime number in the "primy_output" file starting with 1.
