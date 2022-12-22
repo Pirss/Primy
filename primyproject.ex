@@ -61,7 +61,7 @@ defmodule Fermat do
 
 
   @doc "run est responsable de calculer test plusieurs fois avec n puis n+1 etc ;
-  ex:"
+  ex:run(1) va ajouter 1 puis 2 puis 3 etc au output"
 
   def run(n) do
 
