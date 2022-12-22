@@ -1,6 +1,6 @@
-# 
+#############################################################################################################################
 
-In primy you can find the Fermat Module :
+In primyproject you can find the Fermat Module :
 
 Fermat
 
@@ -41,3 +41,17 @@ To run the Fermat module as intended :
    - iex(1)> Fermat.run(1)
 
 It will start to print all the relatively prime number in the "primy_output" file starting with 1.
+
+
+###########################################################################################################################################################
+
+Primy_output.txt is a txt where you can find all prime numbers that has been found.
+
+
+###########################################################################################################################################################
+
+Index.php and style.css are made to be run on an Heroku server. Here's the link to the website :
+- https://primy-project.herokuapp.com/
+
+
+
